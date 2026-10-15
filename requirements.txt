@@ -1,0 +1,11 @@
+fastapi==0.110.0
+uvicorn==0.28.0
+strands-agents
+strands-agents-tools
+langchain-google-genai
+langsmith
+pydantic==2.6.4
+python-multipart
+opencv-python-headless
+numpy
+pillow

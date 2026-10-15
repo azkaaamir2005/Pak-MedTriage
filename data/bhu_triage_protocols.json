@@ -1,0 +1,18 @@
+[
+  {
+    "condition_id": "BURN_001",
+    "category": "Second-Degree Partial Thickness Burn",
+    "triage_priority": "RED",
+    "protocol": "Clean wound with sterile saline. Apply non-adherent dressing. Initiate oral rehydration or IV fluid assessment. Do not pop blisters.",
+    "referral_required": true,
+    "target_facility": "THQ / DHQ Burn Unit"
+  },
+  {
+    "condition_id": "CUT_002",
+    "category": "Minor Surface Laceration",
+    "triage_priority": "GREEN",
+    "protocol": "Wash with clean water and antiseptic solution. Apply direct pressure to stop minor bleeding. Dress with sterile bandage.",
+    "referral_required": false,
+    "target_facility": "Local BHU Care"
+  }
+]
