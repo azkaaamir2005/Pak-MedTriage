@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  pak-medtriage:
+    build: .
+    container_name: pak_medtriage_app
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - PORT=8501
+    restart: unless-stopped
