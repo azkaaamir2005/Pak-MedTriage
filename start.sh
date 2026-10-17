@@ -1,3 +1,3 @@
 #!/bin/bash
-uvicorn app.main:app --host 0.0.0.0 --port 8000 &
-streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+python -m uvicorn app.main:app --reload --port 8000 &
+python -m streamlit run app.py
