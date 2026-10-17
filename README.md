@@ -14,7 +14,7 @@ In rural healthcare settings across Khyber Pakhtunkhwa, Basic Health Units (BHUs
 ---
 
 ## 🛠️ System Architecture & Tech Stack
-                         ```
+```
                          +-----------------------------------+
                          |      Streamlit Frontend UI        |
                          |   (Session-State Input Handling)  |
