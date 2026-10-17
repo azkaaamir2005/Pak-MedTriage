@@ -14,6 +14,7 @@ In rural healthcare settings across Khyber Pakhtunkhwa, Basic Health Units (BHUs
 ---
 
 ## 🛠️ System Architecture & Tech Stack
+                         ```
                          +-----------------------------------+
                          |      Streamlit Frontend UI        |
                          |   (Session-State Input Handling)  |
@@ -32,6 +33,7 @@ In rural healthcare settings across Khyber Pakhtunkhwa, Basic Health Units (BHUs
 | Speech Subsystem |             |  Vision Subsystem |             | Agentic Engine   |
 | (Groq Whisper)   |             | (Gemini 2.5 Flash)|             | (Groq + Gemini)  |
 +------------------+             +-------------------+             +------------------+
+```
 
 | Component | Technology / Stack | Primary Role |
 | :--- | :--- | :--- |
